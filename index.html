@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <title>Generatie Denkers</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="container min-h-svh flex flex-col justify-between">
+        <!-- Navbar start -->
+        <nav class="grid grid-cols-12 items-center py-[70px]">
+            <div class="col-span-4">
+                <a href="#"
+                    class="uppercase font-semibold text-white text-[12px] sm:text-[20px] md:text-[24px] lg:text-[32px] xl:text-[44px] px-3 lg:px-5 xl:px-10 py-2 lg:py-4 border-2 border-white inline-block hover:text-black hover:bg-white transition-all duration-300">
+                    JOIN THE MOVEMENT
+                </a>
+            </div>
+            <!-- Logo -->
+            <div class="col-span-4">
+                <a href="#" class="text-center flex justify-center">
+                    <img src="assets/img/logo.png" alt="Logo" class="xl:max-w-full max-w-16 sm:max-w-24 lg:max-w-40 md:max-w-32 text-cente" />
+                </a>
+            </div>
+            <!-- Social links -->
+            <div class="col-span-4">
+                <div class="flex lg:gap-7 gap-2 justify-end">
+                    <!-- Linkedin -->
+                    <a href="https://www.linkedin.com/">
+                        <svg class="fill-white h-6 w-6 xl:w-14 lg:w-10 xl:h-14 lg:h-10" fill="#000000" width="24px" height="24px" viewBox="0 0 32 32"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z">
+                            </path>
+                        </svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/">
+                        <svg class="xl:w-14 h-6 w-6 xl:h-14 lg:w-10 lg:h-10" width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                                fill="#0F0F0F" class="fill-white" />
+                            <path
+                                d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                                fill="#0F0F0F" class="fill-white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                                fill="#0F0F0F" class="fill-white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar start -->
+
+        <!-- Banner middle area -->
+        <div class="flex items-center justify-center w-full py-16 ">
+            <div class="pill w-full" id="pill">
+                <div class="item absolute w-[50px] md:w-[100px] xl:w-[200px] xl:h-[200px] md:h-[100px] h-[50px] rounded-full bg-white"></div>
+                <!-- Item 1 -->
+                <div class="item absolute w-[50px] md:w-[100px] xl:w-[200px] xl:h-[200px] md:h-[100px] h-[50px] rounded-full bg-white"></div>
+                <!-- Item 2 -->
+                <div class="item absolute w-[50px] md:w-[100px] xl:w-[200px] xl:h-[200px] md:h-[100px] h-[50px] rounded-full bg-white"></div>
+                <!-- Item 3 -->
+                <div class="item absolute w-[50px] md:w-[100px] xl:w-[200px] xl:h-[200px] md:h-[100px] h-[50px] rounded-full bg-white"></div>
+                <!-- Item 4 -->
+            </div>
+        </div>
+        <!-- Banner middle area -->
+
+        <!-- Scroll next section -->
+        <div class="flex justify-center">
+            <a href="#contentArea"
+                class="xl:text-4xl md:text-lg text-[16px] text-white font-semibold mb-5 inline-flex flex-col justify-center items-center">
+                <svg class="xl:w-[50px] xl:h-[50px] md:w-[400px] md:h-[40px] w-[30px] h-[30px] animate-bounce" width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24" height="24" fill="transparent" />
+                    <path d="M12 6L12 18M12 18L17 13M12 18L7 13" stroke="#ffffff" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                MEER WETEN?
+            </a>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Content section -start -->
+    <section class="container " id="contentArea">
+        <!-- Heading -->
+       <div class="lg:py-[120px] sm:py-[60px] py-[40px]">
+        <div class="text-center md:pb-[80px] pb-[50px] xl:pb-[166px]">
+            <h1 class="uppercase font-extrabold text-[38px] sm:text-[50px] md:text-[60px] lg:text-[80px] xl:text-[110px] 2xl:text-[152px] leading-[0.9] px-2 lg:px-4 2xl:px-10 mb-6 sm:mb-8 lg:mb-16">
+                WIJ ZIJN GENERATIEDENKERS
+            </h1>
+            <p class="text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[25px] lg:mt-10 sm:mt-5 mt-3 leading-normal max-w-[620px] mx-auto">
+                Generatiedenkers bouwen bruggen tussen generaties. We werken
+                allemaal samen, sporten samen, groeien samen op. Samen zijn
+                we meer dan individuen; we zijn een movement, een kracht die
+                vooruitgaat.
+            </p>
+            <p class="text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[25px] lg:mt-10 sm:mt-5 mt-3  leading-normal max-w-[980px] mx-auto">
+                Bij Generatiedenkers is iedereen een sleutel tot iets
+                groters. Het gaat niet alleen om wat je doet, maar om wie je
+                bent in het geheel. Samen creëren we een doel, een richting,
+                een impact.
+            </p>
+            <p class="text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[25px] lg:mt-10 sm:mt-5 mt-3  leading-normal max-w-[980px] mx-auto">
+                Als Generatiedenkers coachen en trainen we niet zomaar
+                mensen. We bouwen mee aan een beweging waarin iederéén
+                onderdeel is van een groter verhaal. Het is een mindset, een
+                sleutel naar een toekomst die we samen vormgeven.
+            </p>
+            <p class="text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[25px] lg:mt-10 sm:mt-5 mt-3 leading-normal max-w-[980px] mx-auto">
+                Wij zijn onderdeel van iets groots. Jij ook?
+            </p>
+        </div>
+       </div>
+    </section>
+    <!-- Content section -end -->
+
+    <!-- Video / Photo section -start -->
+    <section class="container grid grid-cols-1 xl:grid-cols-2 xl:gap-9 gap-6 pb-[120px]">
+        <div class="col-span-1">
+            <img src="assets/img/section-placeholder-img.jpg" alt="Image" class="max-w-full" />
+        </div>
+        <div class="col-span-1">
+            <div class="video-section">
+                <video class="w-full h-auto" width="400" controls>
+                    <source src="assets/img/ConceptLosseAnimatie.mp4" type="video/mp4" />
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+        </div>
+    </section>
+    <!-- Video / Photo section -end -->
+
+    <!-- Our DNA - start -->
+    <section class="container">
+        <!-- Heading -->
+        <div class="text-center pb-8 sm:pb-10 lg:pb-20 pt-16">
+            <h2 class="uppercase font-extrabold text-[42px] sm:text-[60px] md:text-[80px] lg:text-[100px] xl:text-[120px] 2xl:text-[146px] leading-[0.9] px-10 mb-10 lg:mb-16">
+                DAT WAT IN ONS DNA ZIT
+            </h2>
+        </div>
+
+        <div class="grid lg:grid-cols-4 grid-cols-2 gap-[20px] lg:gap-[104px]  pb-20">
+            <!-- item -->
+            <div class="">
+                <div class="text-center mx-auto">
+                    <img src="assets/img/icon-image-1.png" alt="icon" class="max-w-[60px] sm:max-w-[100px] md:max-w-[150px] lg:max-w-[200px] xl:max-w-[242px] 2xl:max-w-[242px] w-full mx-auto" />
+                    <h4 class="uppercase text-[18px] sm:text-[24px] md:text-[32px] lg:text-[38px] xl:text-[50px] 2xl:text-[76px] leading-[0px] md:leading-[20px] xl:leading-[50px] 2xl:leading-[104px] font-extrabold mt-8 lg:mt-10 2xl:mt-14 mb-6">
+                        INZICHT
+                    </h4>
+                    <p class="lg:text-[16px] md:text-[14px] text-[16px] 2xl:text-lg leading-snug text-center font-semibold sm:mb-1 lg:mb-5">
+                        We geven je de kennis over generatieverschillen.
+                    </p>
+                    <p class="lg:text-[16px] md:text-[14px] text-[16px] 2xl:text-lg leading-snug text-center font-normal">
+                        Leer begrijpen wie ze zijn, wat ze drijft en hoe ze
+                        werken
+                    </p>
+                </div>
+            </div>
+            <!-- item -->
+            <div class="">
+                <div class="text-center mx-auto">
+                    <img src="assets/img/icon-image-2.png" alt="icon" class="max-w-[60px] sm:max-w-[100px] md:max-w-[150px] lg:max-w-[200px] xl:max-w-[242px] 2xl:max-w-[242px] w-full mx-auto" />
+                    <h4 class="uppercase text-[18px] sm:text-[24px] md:text-[32px] lg:text-[38px] xl:text-[50px] 2xl:text-[76px] leading-[0px] md:leading-[20px] xl:leading-[50px] 2xl:leading-[104px] font-extrabold mt-8 lg:mt-10 2xl:mt-14 mb-6">
+                        AANPAK
+                    </h4>
+                    <p class="lg:text-[16px] md:text-[14px] text-[16px] 2xl:text-lg leading-snug text-center font-semibold sm:mb-1 lg:mb-5">
+                        Geen theorie, maar direct toepasbare handvatten
+                    </p>
+                    <p class="lg:text-[16px] md:text-[14px] text-[16px] 2xl:text-lg leading-snug text-center font-normal">
+                        voor jouw organisatie.
+                    </p>
+                </div>
+            </div>
+            <!-- item -->
+            <div class="">
+                <div class="text-center mx-auto">
+                    <img src="assets/img/icon-image-3.png" alt="icon" class="max-w-[60px] sm:max-w-[100px] md:max-w-[150px] lg:max-w-[200px] xl:max-w-[242px] 2xl:max-w-[242px] w-full mx-auto" />
+                    <h4 class="uppercase text-[18px] sm:text-[24px] md:text-[32px] lg:text-[38px] xl:text-[50px] 2xl:text-[76px] leading-[0px] md:leading-[20px] xl:leading-[50px] 2xl:leading-[104px] font-extrabold mt-8 lg:mt-10 2xl:mt-14 mb-6">
+                        IMPACT
+                    </h4>
+                    <p class="lg:text-[16px] md:text-[14px] text-[16px] 2xl:text-lg leading-snug text-center font-semibold sm:mb-1 lg:mb-5">
+                        Door generaties écht te verbinden,
+                    </p>
+                    <p class="lg:text-[16px] md:text-[14px] text-[16px] 2xl:text-lg leading-snug text-center font-normal">
+                        maak je je organisatie klaar voor de toekomst.
+                    </p>
+                </div>
+            </div>
+            <!-- item -->
+            <div class="">
+                <div class="text-center mx-auto">
+                    <img src="assets/img/icon-image-4.png" alt="icon" class="max-w-[60px] sm:max-w-[100px] md:max-w-[150px] lg:max-w-[200px] xl:max-w-[242px] 2xl:max-w-[242px] w-full mx-auto" />
+                    <h4 class="uppercase text-[18px] sm:text-[24px] md:text-[32px] lg:text-[38px] xl:text-[50px] 2xl:text-[76px] leading-[0px] md:leading-[20px] xl:leading-[50px] 2xl:leading-[104px] font-extrabold mt-8 lg:mt-10 2xl:mt-14 mb-6">
+                        CONNECTIE
+                    </h4>
+                    <p class="lg:text-[16px] md:text-[14px] text-[16px] 2xl:text-lg leading-snug text-center font-semibold sm:mb-1 lg:mb-5">
+                        Door generaties écht te verbinden,
+                    </p>
+                    <p class="lg:text-[16px] md:text-[14px] text-[16px] 2xl:text-lg leading-snug text-center font-normal">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing
+                        elitr, sed diam nonumy eirmod tempor invidunt ut
+                        labore et
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our DNA - end -->
+
+    <!-- Keys to success -start -->
+    <section class="lg:py-[90px] sm:py-[70px] py-[50px] bg-gradient-to-b from-white from-65% via-black via-35% text-black">
+        <!-- Heading -->
+        <div class="container">
+            <!-- Heading -->
+            <div class="text-center lg:mb-20 mb-10">
+                <h2 class="text-[42px] sm:text-[60px] md:text-[80px] lg:text-[110px] xl:text-[124px] 2xl:text-[146px] 2xl:leading-[104px] xl:leading-[85px] leading-[24px] xl:mb-8 md:mb-3 mb-1 2xl:mb-12 font-extrabold">
+                    KEYS TO SUCCES
+                </h2>
+                <p class="text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-[25px] mt-8 leading-normal max-w-[700px] mx-auto">
+                    Als Generatiedenkers coachen en trainen we niet zomaar
+                    mensen. We bouwen mee aan een beweging waarin iederéén
+                    onderdeel is van een groter geheel. Het is een movement,
+                    een sleutel naar een toekomst die we samen vormgeven.
+                </p>
+            </div>
+            <!-- Card wrapper -->
+            <div class="grid lg:grid-cols-4 grid-cols-2 gap-5 lg:gap-14">
+                <!-- Items -->
+                <div class="">
+                    <a href="#"
+                        class="bg-[#A7A7A7] p-8 relative min-h-[400px] sm:min-h-[450px] md:min-h-[550px] xl:min-h-[650px] 2xl: w-full flex items-center justify-center group cursor-pointer">
+                        <h4 class="uppercase text-white font-extrabold 2xl:text-[45px] xl:text-[42px] lg:text-[34px] md:text-[28px] sm:text-[24px] text-[18px] leading-[0.9]">
+                            KEYNOTES
+                        </h4>
+
+                        <!-- Icon -->
+                        <button
+                            class="absolute bottom-14 left-[50%] -ml-4 group-hover:ml-[6px] transition-all duration-300">
+                            <svg class="w-8 h-8" width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#ffffff" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+                <!-- Items -->
+                <div class="">
+                    <a href="#"
+                        class="bg-[#A7A7A7] p-8 relative min-h-[400px] sm:min-h-[450px] md:min-h-[550px] xl:min-h-[650px] 2xl: w-full flex items-center justify-center group cursor-pointer">
+                        <h4 class="uppercase text-white font-extrabold 2xl:text-[45px] xl:text-[42px] lg:text-[34px] md:text-[28px] sm:text-[24px] text-[18px] leading-[0.9] text-center">
+                            (ONLINE) COACHING
+                        </h4>
+
+                        <!-- Icon -->
+                        <button
+                            class="absolute bottom-14 left-[50%] -ml-4 group-hover:ml-[6px] transition-all duration-300">
+                            <svg class="w-8 h-8" width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#ffffff" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+                <!-- Items -->
+                <div class="">
+                    <a href="#"
+                        class="bg-[#A7A7A7] p-8 relative min-h-[400px] sm:min-h-[450px] md:min-h-[550px] xl:min-h-[650px] 2xl: w-full flex items-center justify-center group cursor-pointer">
+                        <h4 class="uppercase text-white font-extrabold 2xl:text-[45px] xl:text-[42px] lg:text-[34px] md:text-[28px] sm:text-[24px] text-[18px] leading-[0.9]">
+                            STRATEGIE
+                        </h4>
+
+                        <!-- Icon -->
+                        <button
+                            class="absolute bottom-14 left-[50%] -ml-4 group-hover:ml-[6px] transition-all duration-300">
+                            <svg class="w-8 h-8" width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#ffffff" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+                <!-- Items -->
+                <div class="z">
+                    <a href="#"
+                        class="bg-[#A7A7A7] p-8 relative min-h-[400px] sm:min-h-[450px] md:min-h-[550px] xl:min-h-[650px] w-full flex items-center justify-center group cursor-pointer">
+                        <h4 class="uppercase text-white font-extrabold 2xl:text-[45px] xl:text-[42px] lg:text-[34px] md:text-[28px] sm:text-[24px] text-[18px] leading-[0.9] text-center">
+                            WORKSHOPS& TRAININGEN
+                        </h4>
+
+                        <!-- Icon -->
+                        <button
+                            class="absolute bottom-14 left-[50%] -ml-4 group-hover:ml-[6px] transition-all duration-300">
+                            <svg class="w-8 h-8" width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#ffffff" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Keys to success -end -->
+
+    <!-- Contact Form -start -->
+    <section class="container">
+        <!-- Heading -->
+   <div class=" lg:pt-[90px] lg:pb-[130px]  md:pt-[50px] md:pb-[100px] pt-[30px] pb-[70px]">
+    <div class="text-center md:pb-[80px] pb-[50px] xl:pb-[166px]">
+        <h2 class="uppercase font-extrabold text-[42px] sm:text-[60px] md:text-[80px] lg:text-[108px] xl:text-[128px] 2xl:text-[152px] leading-[0.9] px-10">
+            WORD ONDERDEEL VAN EEN MOVEMENT
+        </h2>
+        <p class="lg:text-[25px] sm:text-[18px] text-[16px] mt-8 leading-normal max-w-[480px] mx-auto">
+            Doe mee. Sluit je aan. Samen vormen we de beweging. Wij zijn
+            Generatiedenkers.
+        </p>
+    </div>
+    <form action="#" class="grid grid-cols-2 md:gap-16 sm:gap-10 gap-8 2xl:gap-24">
+        <div class="col-span-1">
+            <label for="" hidden>VOORNAAM</label>
+            <input type="text" placeholder="VOORNAAM"
+                class="bg-transparent border-b-2 border-white lg:mb-8 sm:pb-4 pb-2 2xl:pb-16 text-[18px] sm:text-2xl lg:text-4xl font-semibold placeholder:text-white text-white focus:shadow-none focus:outline-none uppercase w-full" />
+        </div>
+        <div class="col-span-1">
+            <label for="" hidden>ACHTERNAAM</label>
+            <input type="text" placeholder="ACHTERNAAM"
+                class="bg-transparent border-b-2 border-white lg:mb-8 sm:pb-4 pb-2 2xl:pb-16 text-[18px] sm:text-2xl lg:text-4xl font-semibold placeholder:text-white text-white focus:shadow-none focus:outline-none uppercase w-full" />
+        </div>
+        <div class="col-span-2">
+            <label for="" hidden>E-MAIL*</label>
+            <input type="email" placeholder="E-MAIL*"
+                class="bg-transparent border-b-2 border-white lg:mb-8 sm:pb-4 pb-2 2xl:pb-16 text-[18px] sm:text-2xl lg:text-4xl font-semibold placeholder:text-white text-white focus:shadow-none focus:outline-none uppercase w-full" />
+        </div>
+        <div class="col-span-2">
+            <label for="" hidden>TELEFOONNUMMER</label>
+            <input type="tel" placeholder="TELEFOONNUMMER"
+                class="bg-transparent border-b-2 border-white lg:mb-8 sm:pb-4 pb-2 2xl:pb-16 text-[18px] sm:text-2xl lg:text-4xl font-semibold placeholder:text-white text-white focus:shadow-none focus:outline-none uppercase w-full" />
+        </div>
+        <div class="col-span-2">
+            <label for="" hidden>WAT KUNNEN WIJ VOOR U DOEN?*</label>
+           
+            <textarea name="" id=""  type="text" placeholder="WAT KUNNEN WIJ VOOR U DOEN?*"
+            class="bg-transparent border-b-2 border-white lg:mb-8 sm:pb-4 pb-2 2xl:pb-16 text-[18px] sm:text-2xl lg:text-4xl text-4xl font-semibold placeholder:text-white text-white focus:shadow-none focus:outline-none uppercase w-full"></textarea>
+            </div>
+
+        <div class="">
+            <button type="submit"
+                class="uppercase font-semibold text-white md:text-[32px] sm:text-[28px] text-[24px]  lg:text-[42px] lg:px-10 lg:py-4 md:px-8 md:py-3 px-6 py:3 border-2 border-white inline-flex justify-start hover:text-black hover:bg-white transition-all duration-300">
+                VERZENDEN
+            </button>
+        </div>
+    </form>
+   </div>
+    </section>
+    <!-- Contact Form -end -->
+    <!-- Footer -->
+    <footer class="container">
+        <div class="md:grid gap-[100px] xl:pb-[258px] lg:pb-[120px]  sm:pb-[80px] pb-[40px] w-full">
+            <!-- Logo -->
+            <a href="#" class="text-center flex justify-center md:mb-0 mb-6">
+                <img src="assets/img/logo.png" alt="Footer logo" class=" xl:max-w-full max-w-24 sm:max-w-28 lg:max-w-40 md:max-w-32" />
+            </a>
+
+            <!-- Footer menu link -->
+            <div class="flex flex-wrap lg:flex-nowrap justify-between sm:gap-5 gap-3 lg:gap-10">
+                <a href="#" class="uppercase lg:text-4xl sm:text-xl text-lg text-white font-semibold">
+                    ALGEMENE VOORWAARDEN
+                </a>
+                <a href="#" class="uppercase lg:text-4xl sm:text-xl text-lg text-white font-semibold">
+                    PRIVACY
+                </a>
+                <a href="#" class="uppercase lg:text-4xl sm:text-xl text-lg text-white font-semibold">
+                    RESPOSIBLE DISCLOSURE
+                </a>
+                <a href="#" class="uppercase lg:text-4xl sm:text-xl text-lg text-white font-semibold">
+                    COOKIES
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
